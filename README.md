@@ -29,8 +29,8 @@ following locations with the values listed in respective order.
     - General > Bundle Identifier = (org.adblockplus.AdblockPlusSafari ||
 org.adblockplus.devbuilds.AdblockPlusSafari)
     - General > Team = (Company || Enterprise)
-    - Capabilities > App Groups = (group.org.adblockplus.AdblockPlusSafari ||
-group.org.adblockplus.devbuilds.AdblockPlusSafari)
+    - Capabilities > App Groups = (group.org.adblockplus.AdblockPlusSafari.my ||
+group.org.adblockplus.devbuilds.AdblockPlusSafari.my)
     - Edit scheme > Build Configuration = (Debug || Devbuild Debug)
 * Target **AdblockPlusSafariActionExtension**
     - General > Bundle Identifier =

@@ -1,0 +1,51 @@
+PODS:
+  - FavIcon (2.4)
+  - RxCocoa (4.4.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - RxSwiftExt (3.2.0):
+    - RxSwiftExt/Core (= 3.2.0)
+  - RxSwiftExt/Core (3.2.0):
+    - RxSwift (~> 4.0)
+
+DEPENDENCIES:
+  - FavIcon (from `https://gitlab.com/eyeo/adblockplus/ios-libraries/FavIcon.git`, tag `2.0.2`)
+  - RxCocoa (~> 4.0)
+  - RxSwift (from `https://gitlab.com/eyeo/adblockplus/ios-libraries/RxSwift.git`, tag `4.1.2`)
+  - RxSwiftExt (from `https://gitlab.com/eyeo/adblockplus/ios-libraries/RxSwiftExt.git`, tag `3.2.0`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RxCocoa
+
+EXTERNAL SOURCES:
+  FavIcon:
+    :git: https://gitlab.com/eyeo/adblockplus/ios-libraries/FavIcon.git
+    :tag: 2.0.2
+  RxSwift:
+    :git: https://gitlab.com/eyeo/adblockplus/ios-libraries/RxSwift.git
+    :tag: 4.1.2
+  RxSwiftExt:
+    :git: https://gitlab.com/eyeo/adblockplus/ios-libraries/RxSwiftExt.git
+    :tag: 3.2.0
+
+CHECKOUT OPTIONS:
+  FavIcon:
+    :git: https://gitlab.com/eyeo/adblockplus/ios-libraries/FavIcon.git
+    :tag: 2.0.2
+  RxSwift:
+    :git: https://gitlab.com/eyeo/adblockplus/ios-libraries/RxSwift.git
+    :tag: 4.1.2
+  RxSwiftExt:
+    :git: https://gitlab.com/eyeo/adblockplus/ios-libraries/RxSwiftExt.git
+    :tag: 3.2.0
+
+SPEC CHECKSUMS:
+  FavIcon: ac1d7acd452ba0d22c81aa00477cbd424b797096
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxSwift: aaf3b036188bfc939e238060cc44320c391890ea
+  RxSwiftExt: bcac041de04138898be149b80509afe3c993d610
+
+PODFILE CHECKSUM: 5cc182d14f13beffb25203df917c40f87559cfbf
+
+COCOAPODS: 1.5.3
