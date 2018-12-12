@@ -66,9 +66,9 @@ static NSString *AdblockPlusSafariActionExtension = @"AdblockPlusSafariActionExt
         } else {
             components = [components subarrayWithRange:NSMakeRange(0, [components count] - 1)];
         }
-
+        
         _bundleName = [components componentsJoinedByString:@"."];
-
+        
         /// Above code duplicated in libadblockplus-ios.
 
         _adblockPlusDetails = [[NSUserDefaults alloc] initWithSuiteName:self.group];
@@ -219,17 +219,17 @@ static NSString *AdblockPlusSafariActionExtension = @"AdblockPlusSafariActionExt
 /// Duplicated in libadblockplus-ios.
 - (NSString *)contentBlockerIdentifier
 {
-    return [NSString stringWithFormat:@"%@.AdblockPlusSafari.%@", _bundleName, AdblockPlusSafariExtension];
+    return [NSString stringWithFormat:@"%@.AdblockPlusSafari2222.%@", _bundleName, AdblockPlusSafariExtension];
 }
 
 - (NSString *)group
 {
-    return [NSString stringWithFormat:@"group.%@.%@", _bundleName, @"AdblockPlusSafari"];
+    return [NSString stringWithFormat:@"group.%@.%@", _bundleName, @"AdblockPlusSafari2222"];
 }
 
 - (NSString *)backgroundSessionConfigurationIdentifier
 {
-    return [NSString stringWithFormat:@"%@.AdblockPlusSafari.BackgroundSession", _bundleName];
+    return [NSString stringWithFormat:@"%@.AdblockPlusSafari2222.BackgroundSession", _bundleName];
 }
 
 - (NSString *__nonnull)activeFilterListName

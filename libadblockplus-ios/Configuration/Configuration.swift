@@ -29,7 +29,7 @@ struct Constants {
 }
 
 public struct Config {
-    let baseProduct = "AdblockPlusSafari"
+    let baseProduct = "AdblockPlusSafari2222"
     let adblockPlusSafariExtension = "AdblockPlusSafariExtension"
     let adblockPlusSafariActionExtension = "AdblockPlusSafariActionExtension"
 
